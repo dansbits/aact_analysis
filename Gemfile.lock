@@ -1,0 +1,93 @@
+GIT
+  remote: git://github.com/v0dro/daru.git
+  revision: 8be66988cbbaab1d3f694f7543968d3c490f751e
+  specs:
+    daru (0.1.3.1)
+      backports
+      reportbuilder (~> 1.4)
+      spreadsheet (~> 1.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.6.1)
+    backports (3.6.8)
+    bond (0.5.1)
+    clbustos-rtf (0.4.2)
+    data_uri (0.1.0)
+    dbd-sqlite3 (1.2.5)
+      dbi (>= 0.4.0)
+      sqlite3-ruby
+    dbi (0.4.5)
+      deprecated (= 2.0.1)
+    deprecated (2.0.1)
+    dirty-memoize (0.0.4)
+    distribution (0.7.3)
+    extendmatrix (0.4)
+    iruby (0.2.9)
+      bond (~> 0.5)
+      data_uri (~> 0.1)
+      mimemagic (~> 0.3)
+      multi_json (~> 1.11)
+    mimemagic (0.3.1)
+    minimization (0.2.3)
+      text-table (~> 1.2)
+    multi_json (1.12.0)
+    nyaplot (0.1.6)
+    prawn (0.8.4)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+    prawn-core (0.8.4)
+    prawn-layout (0.8.4)
+    prawn-security (0.8.4)
+    prawn-svg (0.9.1.11)
+      prawn (>= 0.8.4)
+    rake (11.1.2)
+    rbczmq (1.7.9)
+    reportbuilder (1.4.2)
+      clbustos-rtf (~> 0.4.0)
+      prawn (~> 0.8.4)
+      prawn-svg (~> 0.9.1)
+      text-table (~> 1.2)
+    rserve-client (0.3.1)
+    ruby-ole (1.2.12)
+    rubyvis (0.6.1)
+    rubyzip (1.2.0)
+    sequel (4.35.0)
+    spreadsheet (1.1.2)
+      ruby-ole (>= 1.0)
+    sqlite3 (1.3.11)
+    sqlite3-ruby (1.3.3)
+      sqlite3 (>= 1.3.3)
+    statsample (2.0.2)
+      awesome_print (~> 1.6)
+      daru (~> 0.1)
+      dirty-memoize (~> 0.0.4)
+      distribution (~> 0.7)
+      extendmatrix (~> 0.4)
+      minimization (~> 0.2)
+      reportbuilder (~> 1.4)
+      rserve-client (~> 0.3)
+      rubyvis (~> 0.6.1)
+      spreadsheet (~> 1.1)
+    text-table (1.2.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  daru!
+  dbd-sqlite3
+  dbi
+  iruby
+  nyaplot
+  rake
+  rbczmq
+  rubyzip
+  sequel
+  sqlite3
+  statsample
+
+BUNDLED WITH
+   1.12.5

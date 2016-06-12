@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'daru', github: 'v0dro/daru'
+gem 'dbd-sqlite3'
+gem 'dbi'
+gem 'iruby'
+gem 'nyaplot'
+gem 'rake'
+gem 'rbczmq'
+gem 'rubyzip'
+gem 'sequel'
+gem 'sqlite3'
+gem 'statsample'
