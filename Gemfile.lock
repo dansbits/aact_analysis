@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/v0dro/daru.git
-  revision: 8be66988cbbaab1d3f694f7543968d3c490f751e
+  revision: 2b13ac2b2e470a3ddf603bcd93a0a44274c69139
   specs:
     daru (0.1.3.1)
       backports
@@ -10,11 +10,14 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    awesome_print (1.6.1)
+    awesome_print (1.7.0)
     backports (3.6.8)
     bond (0.5.1)
     clbustos-rtf (0.4.2)
     data_uri (0.1.0)
+    dbd-mysql (0.4.4)
+      dbi (>= 0.4.0)
+      mysql
     dbd-sqlite3 (1.2.5)
       dbi (>= 0.4.0)
       sqlite3-ruby
@@ -32,7 +35,8 @@ GEM
     mimemagic (0.3.1)
     minimization (0.2.3)
       text-table (~> 1.2)
-    multi_json (1.12.0)
+    multi_json (1.12.1)
+    mysql (2.9.1)
     nyaplot (0.1.6)
     prawn (0.8.4)
       prawn-core (>= 0.8.4, < 0.9)
@@ -43,7 +47,7 @@ GEM
     prawn-security (0.8.4)
     prawn-svg (0.9.1.11)
       prawn (>= 0.8.4)
-    rake (11.1.2)
+    rake (11.2.2)
     rbczmq (1.7.9)
     reportbuilder (1.4.2)
       clbustos-rtf (~> 0.4.0)
@@ -54,7 +58,7 @@ GEM
     ruby-ole (1.2.12)
     rubyvis (0.6.1)
     rubyzip (1.2.0)
-    sequel (4.35.0)
+    sequel (4.36.0)
     spreadsheet (1.1.2)
       ruby-ole (>= 1.0)
     sqlite3 (1.3.11)
@@ -78,9 +82,11 @@ PLATFORMS
 
 DEPENDENCIES
   daru!
+  dbd-mysql
   dbd-sqlite3
   dbi
   iruby
+  mysql
   nyaplot
   rake
   rbczmq
