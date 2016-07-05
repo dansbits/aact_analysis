@@ -28,4 +28,9 @@ namespace :aact do
       Aact::TextFileProcessor.new(file_path).process
     end
   end
+
+  desc "transorm the data"
+  task :transform do
+    Aact::DateTransformer.transform
+  end
 end
