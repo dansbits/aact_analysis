@@ -2,7 +2,7 @@ module Aact
   class DateTransformer
 
     DATES_TO_TRANSFORM = [
-      # { table: 'clinical_study', column: 'start_date' },
+      { table: 'clinical_study', column: 'start_date' },
       { table: 'clinical_study', column: 'completion_date' },
       { table: 'clinical_study', column: 'primary_completion_date' },
       { table: 'clinical_study', column: 'verification_date' },
