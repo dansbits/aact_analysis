@@ -10,6 +10,9 @@
 /test/version_tmp/
 /tmp/
 
+# rubymine files
+.idea
+
 /source_data/
 
 .ipynb_checkpoints/
