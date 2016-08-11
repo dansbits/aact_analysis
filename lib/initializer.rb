@@ -3,7 +3,8 @@ require 'yaml'
 require 'mysql'
 require_relative 'aact/schema_creator'
 require_relative 'aact/text_file_processor'
-require_relative 'aact/date_transformer'
+require_relative 'aact/partial_date_transformer'
+require_relative 'aact/full_date_transformer'
 
 db_config = db_config = YAML.load_file("secrets.yml")['database']
 

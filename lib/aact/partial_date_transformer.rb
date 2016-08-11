@@ -1,14 +1,11 @@
 module Aact
-  class DateTransformer
+  class PartialDateTransformer
 
     DATES_TO_TRANSFORM = [
       { table: 'clinical_study', column: 'start_date' },
       { table: 'clinical_study', column: 'completion_date' },
       { table: 'clinical_study', column: 'primary_completion_date' },
-      { table: 'clinical_study', column: 'verification_date' },
-      { table: 'clinical_study', column: 'lastchanged_date' },
-      { table: 'clinical_study', column: 'firstreceived_date' },
-      { table: 'clinical_study', column: 'firstreceived_results_date' }
+      { table: 'clinical_study', column: 'verification_date' }
     ]
 
     def self.transform

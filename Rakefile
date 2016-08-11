@@ -31,6 +31,10 @@ namespace :aact do
 
   desc "transorm the data"
   task :transform do
-    Aact::DateTransformer.transform
+    print "Transforming partial date columns\n"
+    Aact::PartialDateTransformer.transform
+
+    print "Transforming full date columns\n"
+    Aact::FullDateTransformer.transform
   end
 end
